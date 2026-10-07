@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>S. Harish — Signal over Noise</title>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preload" as="image" href="assets/img/about.webp" fetchpriority="low">
+<link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="low">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+<header class="nav">
+  <a class="nav-mark" href="#top">H<span>—</span>SH</a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="#work">Work</a>
+    <a href="#lab">Lab</a>
+    <a href="#about">About</a>
+  </nav>
+  <a class="nav-hire" href="mailto:harish.s.profile@gmail.com">Hire me</a>
+</header>
+
+<main id="main">
+<!-- ════════ HERO ════════ -->
+<section class="hero" id="top" aria-label="Introduction">
+  <canvas id="signal" aria-hidden="true"></canvas>
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-main">
+    <p class="hero-status mono reveal"><span class="pulse" aria-hidden="true"></span> open to internships · research · collaboration</p>
+    <h1 class="hero-title" aria-label="Signal over noise.">
+      <span class="ht-line" data-split>Signal</span>
+      <span class="ht-over" data-split>over</span>
+      <span class="ht-line ht-serif" data-split>noise.</span>
+    </h1>
+    <p class="hero-sub reveal">I’m <strong>S.&nbsp;Harish</strong> — I build machine-learning systems that survive contact with reality. Audited, calibrated, and shipped: churn engines, risk intelligence, quant systems, live platforms.</p>
+    <div class="hero-cta reveal">
+      <a class="btn-solid" href="#work">See the proof ↓</a>
+      <a class="btn-ghost" href="#lab">Touch the models →</a>
+    </div>
+    </div>
+    <aside class="hero-media reveal" aria-label="Showreel video">
+      <video id="heroVideo" src="assets/hero_video.mp4" muted playsinline preload="auto" disablepictureinpicture disableremoteplayback controlslist="nodownload noplaybackrate nofullscreen" tabindex="-1" aria-label="Showreel — plays once on load"></video>
+    </aside>
+    <ul class="hero-ticker mono" aria-label="Key numbers">
+      <li><b>0.956</b> PR&nbsp;AUC</li>
+      <li><b>970,960</b> rows modelled</li>
+      <li><b>89.4%</b> NLP accuracy</li>
+      <li><b>7</b> freelance clients</li>
+      <li><b>1,000+</b> students live</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ════════ BAND ════════ -->
+<div class="band" aria-hidden="true">
+  <div class="band-track">
+    <span>0.956 PR AUC ✦ 970,960 subscribers ✦ 89.4% NLP accuracy ✦ leakage-audited ✦ 7 freelance clients ✦ 1,000+ students live ✦&nbsp;</span>
+    <span>0.956 PR AUC ✦ 970,960 subscribers ✦ 89.4% NLP accuracy ✦ leakage-audited ✦ 7 freelance clients ✦ 1,000+ students live ✦&nbsp;</span>
+  </div>
+</div>
+
+<!-- ════════ MANIFESTO ════════ -->
+<section class="manifesto" aria-label="Manifesto">
+  <p class="kicker mono reveal">The creed</p>
+  <p class="manifesto-text reveal">Most models die in notebooks. Mine ship — because I spend most of my time making the <em>data trustworthy</em> before anyone draws a conclusion from it.</p>
+  <figure class="portrait reveal lens" data-lens="assets/img/about.webp">
+    <span class="sticker" aria-hidden="true">ships models ✓</span>
+    <div class="lens-frame">
+      <img class="lens-base" src="assets/img/hero.webp" alt="Portrait of S. Harish in a black shirt, arms crossed" width="880" height="1322" loading="eager" fetchpriority="low" decoding="async">
+    </div>
+    <span class="lens-hint mono" aria-hidden="true">hover — swap shirt ⇄</span>
+    <figcaption class="mono">Plate — the author, S. Harish <span class="verified">✓ human</span></figcaption>
+  </figure>
+</section>
+
+<div class="morph" aria-hidden="true">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+    <path fill="#FF4D00" d="M0,64 C240,96 480,32 720,64 C960,96 1200,32 1440,64 L1440,120 L0,120 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0,64 C240,96 480,32 720,64 C960,96 1200,32 1440,64 L1440,120 L0,120 Z;M0,64 C240,32 480,96 720,64 C960,32 1200,96 1440,64 L1440,120 L0,120 Z;M0,64 C240,96 480,32 720,64 C960,96 1200,32 1440,64 L1440,120 L0,120 Z"/>
+    </path>
+  </svg>
+</div>
+
+<!-- ════════ WORK ════════ -->
+<section class="work" id="work" aria-label="Selected work">
+  <div class="sec-head reveal">
+    <p class="kicker mono">01 — Selected work</p>
+    <h2>Four systems.<br><span>Zero demos.</span></h2>
+  </div>
+
+  <div class="work-pin">
+    <div class="deck-hud mono"><span>01 · Selected Work</span><span><span class="dh-i">01</span>&thinsp;/&thinsp;04 · <span class="dh-p">context</span></span></div>
+    <div class="stage">
+
+      <!-- 01 · CHURN -->
+      <article class="proj" style="--acc:#FF4D00" data-n="01" aria-label="Subscriber Churn Prediction">
+        <div class="pk-txt">
+          <p class="pk-kick mono">01 · flagship · KKBox WSDM Cup</p>
+          <h3 class="pk-title"><span class="ln"><span class="ln-i">Churn, predicted</span></span><span class="ln"><span class="ln-i">before it happens.</span></span></h3>
+          <p class="pk-lede">970,960 subscribers, ~50 engineered features, and one uncomfortable question: does the model secretly know the future?</p>
+          <div class="pk-story">
+            <p class="pk-b1">Three tables — labels, demographics, two years of transactions — joined into 970,960 subscribers at a 9% churn rate, described by ~50 engineered behavioral and tenure features.</p>
+            <p class="pk-b2">Then the audit: every time-based feature checked against a strict 2017-03-31 cutoff — catching a date-parsing flaw that leaked future tenure as “active status”. Cleaned, LightGBM reaches 0.956 PR AUC, and the top 10% risk slice holds 94.8% of churners.</p>
+          </div>
+          <div class="pk-mets">
+            <div class="met"><span class="met-v hot" data-to="0.956" data-dec="3">0.956</span><span class="met-c">PR AUC · LightGBM</span></div>
+            <div class="met"><span class="met-v" data-to="0.883" data-dec="3">0.883</span><span class="met-c">logistic baseline</span></div>
+            <div class="met"><span class="met-v" data-to="94.8" data-dec="1" data-suf="%">94.8%</span><span class="met-c">churners in top-10% risk</span></div>
+          </div>
+          <ul class="tags mono"><li>Python</li><li>pandas</li><li>LightGBM</li><li>SHAP</li><li>leakage audit</li></ul>
+          <div class="ch-links mono"><a href="https://github.com/S-Harish-Dev/KKBox-s_Churn_Prediction" target="_blank" rel="noopener">Repository ↗</a><a href="#lab-churn">Try it live ↓</a></div>
+        </div>
+        <figure class="pv">
+          <svg class="pv-svg" viewBox="0 0 480 360" preserveAspectRatio="xMidYMid meet" aria-label="PR curves and risk decile chart">
+            <line class="pr-ax" x1="34" y1="28" x2="34" y2="300"></line>
+            <line class="pr-ax" x1="34" y1="300" x2="236" y2="300"></line>
+            <path class="pr-base" d="M34 52 C 96 58 168 96 236 268"></path>
+            <path class="pr-model" d="M34 36 C 118 38 184 66 236 218"></path>
+            <text class="pr-l t acc" x="44" y="34">0.956 — LIGHTGBM</text>
+            <text class="pr-l t" x="130" y="88">0.883 — LOGISTIC</text>
+            <text class="pr-l t" x="34" y="16">PRECISION</text>
+            <text class="pr-l t" x="130" y="318">RECALL →</text>
+            <rect class="dec-b first" x="268" y="90" width="13" height="210"></rect>
+            <rect class="dec-b" x="288" y="291" width="13" height="9"></rect>
+            <rect class="dec-b" x="308" y="294" width="13" height="6"></rect>
+            <rect class="dec-b" x="328" y="295" width="13" height="5"></rect>
+            <rect class="dec-b" x="348" y="296" width="13" height="4"></rect>
+            <rect class="dec-b" x="368" y="296" width="13" height="4"></rect>
+            <rect class="dec-b" x="388" y="297" width="13" height="3"></rect>
+            <rect class="dec-b" x="408" y="297" width="13" height="3"></rect>
+            <rect class="dec-b" x="428" y="298" width="13" height="2"></rect>
+            <path class="dec-brk" d="M266 84 L266 74 L291 74 L291 84"></path>
+            <text class="pr-l t acc" x="266" y="66">TOP 10% → 94.8%</text>
+            <text class="pr-l t" x="268" y="318">D1</text>
+            <text class="pr-l t" x="424" y="318">D10</text>
+          </svg>
+          <figcaption class="pv-cap mono">Fig. 1 — PR curves &amp; risk-decile capture (KKBox)</figcaption>
+        </figure>
+      </article>
+
+      <!-- 02 · CFPB -->
+      <article class="proj" style="--acc:#E9A100" data-n="02" aria-label="Financial Complaint Risk Intelligence">
+        <div class="pk-txt">
+          <p class="pk-kick mono">02 · NLP + risk · CFPB corpus</p>
+          <h3 class="pk-title"><span class="ln"><span class="ln-i">Complaints that warn</span></span><span class="ln"><span class="ln-i">before they explode.</span></span></h3>
+          <p class="pk-lede">The CFPB consumer-complaint database, turned into a live risk-intelligence system.</p>
+          <div class="pk-story">
+            <p class="pk-b1">Every complaint is a signal; the problem is volume. TF-IDF compressed into a TruncatedSVD semantic space, a classifier with calibrated probabilities, and cosine-similarity retrieval matching historical cases in ~0.18ms — no GPU required.</p>
+            <p class="pk-b2">Serving is engineered, not implied: a FastAPI REST server, a Streamlit interface, and SQL analysis of complaint patterns and dispute rates — plus an anomaly radar that notices when the shape of risk changes.</p>
+          </div>
+          <div class="pk-mets">
+            <div class="met"><span class="met-v hot" data-to="89.4" data-dec="1" data-suf="%">89.4%</span><span class="met-c">accuracy · calibrated</span></div>
+            <div class="met"><span class="met-v" data-to="0.865" data-dec="3">0.865</span><span class="met-c">macro F1</span></div>
+            <div class="met"><span class="met-v" data-to="0.18" data-dec="2" data-pre="~" data-suf="ms">~0.18ms</span><span class="met-c">retrieval latency</span></div>
+          </div>
+          <ul class="tags mono"><li>scikit-learn</li><li>TF-IDF</li><li>TruncatedSVD</li><li>FastAPI</li><li>Streamlit</li><li>SQL</li></ul>
+          <div class="ch-links mono"><a href="https://github.com/S-Harish-Dev/Financial_Complaint_Risk_Intelligence" target="_blank" rel="noopener">Repository ↗</a><a href="#lab-leak">See the audit ↓</a></div>
+        </div>
+        <figure class="pv">
+          <svg class="pv-svg" viewBox="0 0 440 440" preserveAspectRatio="xMidYMid meet" aria-label="Anomaly radar diagram">
+            <circle class="rd-c" cx="220" cy="220" r="55"></circle>
+            <circle class="rd-c" cx="220" cy="220" r="105"></circle>
+            <circle class="rd-c" cx="220" cy="220" r="155"></circle>
+            <circle class="rd-c" cx="220" cy="220" r="205"></circle>
+            <line class="rd-x" x1="20" y1="220" x2="420" y2="220"></line>
+            <line class="rd-x" x1="220" y1="20" x2="220" y2="420"></line>
+            <circle class="rd-blip" cx="300" cy="140" r="4"></circle>
+            <circle class="rd-blip" cx="150" cy="118" r="3"></circle>
+            <circle class="rd-blip" cx="118" cy="296" r="5"></circle>
+            <circle class="rd-blip" cx="332" cy="296" r="3.5"></circle>
+            <circle class="rd-blip" cx="198" cy="88" r="3"></circle>
+            <circle class="rd-blip" cx="88" cy="198" r="4"></circle>
+            <circle class="rd-blip" cx="262" cy="332" r="3"></circle>
+            <circle class="rd-surge" cx="118" cy="296" r="10"></circle>
+            <g class="rd-sweep">
+              <path d="M220 220 L220 15 A205 205 0 0 1 322.5 42.5 Z" fill="rgba(23,19,13,.05)"></path>
+              <line x1="220" y1="220" x2="220" y2="15" stroke="#FF4D00" stroke-width="1"></line>
+            </g>
+            <text class="rd-l t" x="24" y="34">SEMANTIC SPACE — SVD</text>
+            <text class="rd-l t" x="416" y="34" text-anchor="end">COSINE &lt; 1MS</text>
+            <text class="rd-l t" x="24" y="424">ANOMALY RADAR — CFPB</text>
+            <text class="rd-l t acc" x="416" y="424" text-anchor="end">CALIBRATED P</text>
+          </svg>
+          <figcaption class="pv-cap mono">Fig. 2 — Anomaly radar · semantic retrieval (CFPB)</figcaption>
+        </figure>
+      </article>
+
+      <!-- 03 · QUANT -->
+      <article class="proj" style="--acc:#0E7A3D" data-n="03" aria-label="Quant Engine">
+        <div class="pk-txt">
+          <p class="pk-kick mono">03 · systems · NSE tickers</p>
+          <h3 class="pk-title"><span class="ln"><span class="ln-i">Two engines,</span></span><span class="ln"><span class="ln-i">one honest forecast.</span></span></h3>
+          <p class="pk-lede">Two models disagree about the market. The engine listens to both — and to the macro news everyone else is reading.</p>
+          <div class="pk-story">
+            <p class="pk-b1">XGBoost and an Attention LSTM, each trained on 15-day sequential price action for NSE tickers and cached for high-throughput inference.</p>
+            <p class="pk-b2">Gemini 2.5 Flash synthesizes macro drivers — RBI repo rates, Union Budget, tariffs — blended at a deliberate 60/40. Every inference and macro summary is persisted for historical lookup.</p>
+          </div>
+          <div class="pk-mets">
+            <div class="met"><span class="met-v hot" data-to="15">15</span><span class="met-c">days of price action</span></div>
+            <div class="met"><span class="met-v" data-to="60" data-suf="/40">60/40</span><span class="met-c">technical / sentiment</span></div>
+            <div class="met"><span class="met-v" data-to="2">2</span><span class="met-c">blended models</span></div>
+          </div>
+          <ul class="tags mono"><li>XGBoost</li><li>PyTorch</li><li>Streamlit</li><li>Plotly</li><li>SQL</li><li>JSON</li></ul>
+          <div class="ch-links mono"><a href="https://github.com/S-Harish-Dev/QUANT-ENGINE" target="_blank" rel="noopener">Repository ↗</a><a href="#lab-blend">Move the blend ↓</a></div>
+        </div>
+        <figure class="pv">
+          <svg class="pv-svg" viewBox="0 0 480 360" preserveAspectRatio="xMidYMid meet" aria-label="Hybrid inference diagram">
+            <polyline class="q-price" points="30,110 60,88 90,118 120,72 150,96 180,58 210,84 240,52 270,78 300,112 330,88 360,64 390,82 420,56 450,68"></polyline>
+            <circle class="q-pt" cx="30" cy="110" r="2.2"></circle><circle class="q-pt" cx="60" cy="88" r="2.2"></circle>
+            <circle class="q-pt" cx="90" cy="118" r="2.2"></circle><circle class="q-pt" cx="120" cy="72" r="2.2"></circle>
+            <circle class="q-pt" cx="150" cy="96" r="2.2"></circle><circle class="q-pt" cx="180" cy="58" r="2.2"></circle>
+            <circle class="q-pt" cx="210" cy="84" r="2.2"></circle><circle class="q-pt" cx="240" cy="52" r="2.2"></circle>
+            <circle class="q-pt" cx="270" cy="78" r="2.2"></circle><circle class="q-pt" cx="300" cy="112" r="2.2"></circle>
+            <circle class="q-pt" cx="330" cy="88" r="2.2"></circle><circle class="q-pt" cx="360" cy="64" r="2.2"></circle>
+            <circle class="q-pt" cx="390" cy="82" r="2.2"></circle><circle class="q-pt" cx="420" cy="56" r="2.2"></circle>
+            <circle class="q-pt" cx="450" cy="68" r="2.2"></circle>
+            <text class="t" x="30" y="148">T−15</text><text class="t" x="426" y="148">T−0</text>
+            <g class="q-box"><rect x="52" y="176" width="130" height="34" rx="2"></rect><text class="t" x="63" y="197">XGBOOST</text></g>
+            <g class="q-box"><rect x="298" y="176" width="130" height="34" rx="2"></rect><text class="t" x="309" y="197">ATTENTION LSTM</text></g>
+            <path class="q-arr" d="M182 193 C 205 195 214 212 224 230 M215 222 L224 230 L213 232"></path>
+            <path class="q-arr" d="M298 193 C 275 195 266 212 256 230 M267 222 L258 230 L269 232"></path>
+            <g class="q-hub"><circle cx="240" cy="248" r="26"></circle><text x="240" y="252" text-anchor="middle" style="font-family:monospace;font-size:8.5px;letter-spacing:.1em;fill:#FAF4E7">BLEND</text></g>
+            <text class="q-ml t acc" x="30" y="288">TECHNICAL — 60</text>
+            <text class="q-ml t" x="282" y="288">SENTIMENT — 40</text>
+            <rect class="q-m1" x="30" y="296" width="252" height="14"></rect>
+            <rect class="q-m2" x="282" y="296" width="168" height="14"></rect>
+            <text class="q-macro t" x="240" y="342" text-anchor="middle">GEMINI 2.5 FLASH — RBI REPO · UNION BUDGET · TARIFFS</text>
+          </svg>
+          <figcaption class="pv-cap mono">Fig. 3 — Hybrid inference · 60/40 signal blend (NSE)</figcaption>
+        </figure>
+      </article>
+
+      <!-- 04 · ON CAMPUS -->
+      <article class="proj" style="--acc:#2233E8" data-n="04" aria-label="On Campus platform">
+        <div class="pk-txt">
+          <p class="pk-kick mono">04 · shipped live · 1,000+ students</p>
+          <h3 class="pk-title"><span class="ln"><span class="ln-i">A campus that runs</span></span><span class="ln"><span class="ln-i">on software.</span></span></h3>
+          <p class="pk-lede">Event discovery, travel splitting, community services — one hub 1,000+ students actually open.</p>
+          <div class="pk-story">
+            <p class="pk-b1">End-to-end architecture at Krea — modular workflows, business logic, REST APIs — substantial parts built with AI-assisted development in Claude Code.</p>
+            <p class="pk-b2">The measure is operational: cafeteria peak waits fell ~30% after launch. React on the front, orchestration underneath, real users throughout — still running, still mine.</p>
+          </div>
+          <div class="pk-mets">
+            <div class="met"><span class="met-v hot" data-to="1000" data-comma data-suf="+">1,000+</span><span class="met-c">students served</span></div>
+            <div class="met"><span class="met-v" data-to="30" data-pre="~" data-suf="%">~30%</span><span class="met-c">cafeteria wait-time cut</span></div>
+            <div class="met"><span class="met-v" data-to="3">3</span><span class="met-c">integrated services</span></div>
+          </div>
+          <ul class="tags mono"><li>React</li><li>REST APIs</li><li>Claude Code</li><li>orchestration</li></ul>
+          <div class="ch-links mono"><a href="https://oncampus-b1ff5.web.app/app" target="_blank" rel="noopener">Web app ↗</a></div>
+        </div>
+        <figure class="pv">
+          <svg class="pv-svg" viewBox="0 0 480 360" preserveAspectRatio="xMidYMid meet" aria-label="Campus platform system diagram">
+            <g class="c-dots"></g>
+            <path class="c-link" d="M120 110 C 130 140 180 152 216 166"></path>
+            <path class="c-link" d="M360 110 C 350 140 300 152 264 166"></path>
+            <path class="c-link" d="M240 288 L240 212"></path>
+            <g class="c-mod"><rect x="56" y="64" width="128" height="46" rx="2"></rect><text class="t" x="120" y="92" text-anchor="middle">EVENT DISCOVERY</text></g>
+            <g class="c-mod"><rect x="296" y="64" width="128" height="46" rx="2"></rect><text class="t" x="360" y="92" text-anchor="middle">TRAVEL SPLITTING</text></g>
+            <g class="c-mod"><rect x="176" y="288" width="128" height="46" rx="2"></rect><text class="t" x="240" y="316" text-anchor="middle">COMMUNITY SERVICES</text></g>
+            <g class="c-hub"><circle cx="240" cy="180" r="30"></circle><text x="240" y="184" text-anchor="middle" style="font-family:monospace;font-size:8px;letter-spacing:.08em;fill:#FAF4E7">ON CAMPUS</text></g>
+            <text class="c-note t" x="312" y="282">−30% PEAK WAIT</text>
+          </svg>
+          <figcaption class="pv-cap mono">Fig. 4 — One hub · three services · 1,000+ students</figcaption>
+        </figure>
+      </article>
+
+    </div>
+    <div class="deck-rail" aria-hidden="true"><span class="seg"><i></i></span><span class="seg"><i></i></span><span class="seg"><i></i></span><span class="seg"><i></i></span></div>
+  </div>
+</section>
+
+<!-- ════════ LAB ════════ -->
+<section class="lab" id="lab" aria-label="Interactive lab">
+  <div class="sec-head reveal">
+    <p class="kicker mono">02 — The lab · touch everything</p>
+    <h2>Don’t take my word.<br><span>Move the sliders.</span></h2>
+  </div>
+
+  <!-- churn triage -->
+  <div class="panel reveal" id="lab-churn">
+    <div class="panel-head mono"><span>experiment 01</span><span>churn triage</span></div>
+    <h3>Call fewer people. Save almost everyone.</h3>
+    <p class="panel-sub">Drag the outreach budget. The curve is anchored at the measured point: targeting the riskiest <strong>10%</strong> reaches <strong>94.8%</strong> of churners.</p>
+    <div class="triage-viz" aria-hidden="true">
+      <div class="triage-bar"><span id="triageFill"></span><i id="triageMark"></i></div>
+    </div>
+    <div class="triage-out">
+      <p class="triage-big"><b id="triageX">10%</b><span>contacted</span></p>
+      <p class="triage-big"><b id="triageY">94.8%</b><span>of churners saved</span></p>
+    </div>
+    <label class="slider-label mono" for="triageRange">outreach budget: <output id="triageVal" for="triageRange">10%</output></label>
+    <input type="range" id="triageRange" min="1" max="15" value="10" step="1" aria-describedby="triageNote">
+    <p class="panel-note mono" id="triageNote">illustrative curve through the measured 10% → 94.8% point · PR AUC 0.956</p>
+  </div>
+
+  <!-- leakage audit -->
+  <div class="panel reveal" id="lab-leak">
+    <div class="panel-head mono"><span>experiment 02</span><span>leakage audit</span></div>
+    <h3>Same model. Two pipelines. One lies.</h3>
+    <p class="panel-sub">Flip the switch. The leaky pipeline reads expiry from each customer’s <em>largest date</em> — future tenure masquerading as active status. The audited pipeline cuts every feature at 2017-03-31.</p>
+    <div class="switch-row">
+      <button class="switch" id="leakSwitch" role="switch" aria-checked="false" aria-label="Toggle leakage audit">
+        <span class="sw-track"><span class="sw-thumb"></span></span>
+        <span class="sw-label mono" id="leakLabel">pipeline: LEAKY — future visible</span>
+      </button>
+    </div>
+    <div class="audit-grid">
+      <table class="audit-table mono" aria-label="Leakage example">
+        <tr><th>user</th><th>last txn</th><th>expiry read</th><th>shown as</th></tr>
+        <tr id="auditRow"><td>u_1042</td><td>2016-11-02</td><td id="auditExpiry">2018-06-30</td><td id="auditStatus">active ✗</td></tr>
+      </table>
+      <div class="audit-verdict">
+        <b id="auditMetric">looks perfect. means nothing.</b>
+        <span id="auditSub">scores from leaked features are fiction — the pipeline runs green and lies</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- blend -->
+  <div class="panel reveal" id="lab-blend">
+    <div class="panel-head mono"><span>experiment 03</span><span>quant blend</span></div>
+    <h3>Who do you trust: the chart or the news?</h3>
+    <p class="panel-sub">Slide the blend between the technical engine and macro sentiment. Harish ships it fixed at <strong>60/40</strong> — so disagreements stay visible instead of dissolving into a tuned weight.</p>
+    <div class="blend-bars" aria-hidden="true">
+      <div class="blend-row"><span class="mono">technical</span><div class="blend-track"><span id="blendTech"></span></div><b class="mono" id="blendTechVal">60</b></div>
+      <div class="blend-row"><span class="mono">sentiment</span><div class="blend-track"><span id="blendSent"></span></div><b class="mono" id="blendSentVal">40</b></div>
+    </div>
+    <label class="slider-label mono" for="blendRange">technical weight: <output id="blendVal" for="blendRange">60</output></label>
+    <input type="range" id="blendRange" min="0" max="100" value="60" step="5">
+    <p class="panel-note mono" id="blendNote">shipped at 60/40 · declared, not tuned away</p>
+  </div>
+</section>
+
+<!-- ════════ ABOUT ════════ -->
+<section class="about" id="about" aria-label="About">
+  <div class="sec-head reveal">
+    <p class="kicker mono">03 — The human</p>
+    <h2>Student by day.<br><span>Systems by night.</span></h2>
+  </div>
+  <div class="about-grid">
+    <figure class="portrait reveal lens" data-lens="assets/img/hero.webp">
+      <span class="sticker" aria-hidden="true">CGPA 8.94 ★ Dean's List</span>
+      <span class="sticker two" aria-hidden="true">30 students taught</span>
+      <div class="lens-frame">
+        <img class="lens-base" src="assets/img/about.webp" alt="Portrait of S. Harish" width="880" height="1322" loading="eager" fetchpriority="low" decoding="async">
+      </div>
+      <span class="lens-hint mono" aria-hidden="true">hover — swap shirt ⇄</span>
+      <figcaption class="mono">S. Harish · Tirupur → Sri City <span class="verified">✓ verified human</span></figcaption>
+    </figure>
+    <div class="about-copy">
+      <p class="reveal">B.Sc. Data Science major, Economics minor at <strong>Krea University</strong> — <strong>CGPA 8.94/10, Dean’s List, class of 2027</strong>. Econometrics and regression by training; production ML by obsession.</p>
+      <p class="reveal">Off the keyboard: freelance AI developer for <strong>7 clients</strong> (n8n pipelines, LLM extraction, −20% manual time, 3 production apps, workshops for 15+), and a month teaching CS bilingually to tenth-graders who’d never touched a computer — <strong>100% attendance, four weeks</strong>.</p>
+      <ul class="courses mono reveal"><li>Econometrics</li><li>Regression</li><li>Hypothesis Testing</li><li>Time Series</li><li>Linear Algebra</li><li>Probability &amp; Stats</li><li>DSA</li></ul>
+      <ul class="certs reveal">
+        <li><b>Oracle ’25</b><span>Certified AI Foundations Associate</span></li>
+        <li><b>GUVI · IIT-M</b><span>Generative AI Certification</span></li>
+        <li><b>Rotary</b><span>Community Service Award</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ TOOLKIT ════════ -->
+<section class="kit" aria-label="Toolkit">
+  <div class="sec-head reveal">
+    <p class="kicker mono">04 — Instrument rack</p>
+    <h2>Sharp tools,<br><span>well used.</span></h2>
+  </div>
+  <div class="kit-grid">
+    <div class="kit-group reveal"><p class="mono">languages &amp; data</p><ul><li>Python <span>pandas · NumPy · SciPy</span></li><li>SQL <span>joins · indexing · modelling</span></li><li>React · REST · JSON</li><li>R · JS · HTML/CSS</li></ul></div>
+    <div class="kit-group reveal"><p class="mono">modelling</p><ul><li>LightGBM <span>0.956 PR AUC</span></li><li>XGBoost · scikit-learn</li><li>PyTorch · Attention LSTM</li><li>NLP <span>TF-IDF · SVD · retrieval</span></li></ul></div>
+    <div class="kit-group reveal"><p class="mono">shipping</p><ul><li>FastAPI · Streamlit · Plotly</li><li>n8n · agentic workflows</li><li>Claude Code · Gemini</li><li>Git · SHAP · EDA</li></ul></div>
+  </div>
+</section>
+
+<!-- ════════ BAND 2 ════════ -->
+<div class="band blue" aria-hidden="true">
+  <div class="band-track">
+    <span>Let's build ✦ internships ✦ research ✦ collaborations ✦ datasets with suspicious date columns ✦&nbsp;</span>
+    <span>Let's build ✦ internships ✦ research ✦ collaborations ✦ datasets with suspicious date columns ✦&nbsp;</span>
+  </div>
+</div>
+
+<!-- ════════ FINALE ════════ -->
+<section class="finale" aria-label="Contact">
+  <p class="kicker mono reveal">05 — Transmission</p>
+  <h2 class="finale-title"><span class="fl-line">Have data?</span><span class="fl-line"><span>Let’s talk.</span></span></h2>
+  <p class="finale-sub reveal">Internships, research, collaborations — or a dataset with a suspicious date column. I answer everything serious.</p>
+  <p class="reveal"><a class="mega-mail" href="mailto:harish.s.profile@gmail.com">harish.s.profile@gmail.com</a></p>
+  <div class="finale-links mono reveal">
+    <a href="https://github.com/S-Harish-Dev" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/harishsofficial" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</section>
+</main>
+
+<footer class="foot mono">
+  <span>© 2026 S. Harish · seed 42 · loss decreasing</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

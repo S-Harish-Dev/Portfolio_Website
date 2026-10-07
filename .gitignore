@@ -1,0 +1,15 @@
+# Local AI tooling & assistant cache
+.opencode/
+.impeccable/
+.agents/
+.vscode/
+
+# OS artifacts
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Scratch & backup files
+*.bak
+*.tmp
+*.log
